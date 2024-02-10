@@ -1,1 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header section styling */
+
+.header-container {
+    background-color: #F8F8F8;
+}
+
+.navigation,
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 64px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text h1 {
+    font-size: 90px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.hero-banner img {
+    width: 500px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.sign-up {
+    background-color: #5C98F2;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 5%;
+}
