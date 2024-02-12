@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -24,39 +28,47 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 64px;
+    padding: 18px 50px;
+    gap: 84px;
 }
 
-.logo img {
-    width: 150px;
+.logo img{
+    width: 120px;
+    height: auto;
 }
 
 .links {
     display: flex;
     gap: 24px;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #F8F8F8;
 }
 
 .hero-text h1 {
-    font-size: 90px;
-    font-weight: 900;
+    font-size: 80px;
+    font-weight: 700;
     margin-bottom: 10px;
+}
+
+.visit {
+    color: #5C98F2;
 }
 
 .hero-text p {
     font-size: 18px;
     margin-bottom: 30px;
 }
+
 .hero-banner img {
-    width: 500px;
+    width: 450px;
     height: auto;
     border-radius: 5%;
 }
 
 .sign-up {
     background-color: #5C98F2;
-    padding: 16px 30px;
-    border: none;
-    border-radius: 5%;
+    display: inline-block;
+    padding: 16px 28px;
+    border-radius: 8%;
+    color: #F8F8F8;
 }
