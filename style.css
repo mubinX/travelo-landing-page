@@ -101,3 +101,17 @@ ul {
     width: 350px;
     height: auto;
 }
+
+/* Quote Section Styles */
+
+.quote-container {
+    background-color: #F8F8F8;
+    font-size: 20px;
+    padding: 50px 220px;
+    text-align: end;
+}
+
+.quote-container p {
+    text-align: start;
+    font-style: italic;
+}
