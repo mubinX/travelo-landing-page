@@ -144,5 +144,7 @@ ul {
 
 .footer {
     background-color: black;
-    color: #F8F8F8;
+    color: white;
+    text-align: center;
+    padding: 28px 0;
 }
