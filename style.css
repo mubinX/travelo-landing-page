@@ -102,7 +102,7 @@ ul {
     height: auto;
 }
 
-/* Quote Section Styles */
+/* Quote section styles */
 
 .quote-container {
     background-color: #F8F8F8;
@@ -114,4 +114,35 @@ ul {
 .quote-container p {
     text-align: start;
     font-style: italic;
+}
+
+/* Newsletter section styles */
+
+.newsletter-container {
+    background-color: #5C98F2;
+    display: flex;
+    margin: 24px 90px;
+    padding: 24px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.newsletter-text {
+    color: #F8F8F8;
+}
+
+.subscribe p {
+    border: 2px solid #F8F8F8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #F8F8F8;
+    cursor: pointer;
+
+}
+
+/* Footer styles */
+
+.footer {
+    background-color: black;
+    color: #F8F8F8;
 }
