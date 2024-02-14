@@ -21,6 +21,8 @@ ul {
 
 .header-container {
     background-color: #F8F8F8;
+    margin-bottom: 60px;
+    padding-bottom: 48px;
 }
 
 .navigation,
@@ -45,7 +47,7 @@ ul {
 }
 
 .hero-text h1 {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -69,15 +71,24 @@ ul {
     background-color: #5C98F2;
     display: inline-block;
     padding: 16px 28px;
-    border-radius: 8%;
+    border-radius: 10px;
+    cursor: pointer;
     color: #F8F8F8;
 }
 
 /* Top Destination section styles */
 
+.destination-container {
+    margin-bottom: 60px;
+}
+
 .destination-title {
     text-align: center;
-    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.destination-title h2 {
+    font-size: 36px;
 }
 
 .destination-img-container {
@@ -98,8 +109,13 @@ ul {
 }
 
 .destination-img {
+    border-radius: 10px;
     width: 350px;
     height: auto;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 /* Quote section styles */
@@ -107,6 +123,7 @@ ul {
 .quote-container {
     background-color: #F8F8F8;
     font-size: 20px;
+    margin-bottom: 60px;
     padding: 50px 220px;
     text-align: end;
 }
@@ -121,7 +138,7 @@ ul {
 .newsletter-container {
     background-color: #5C98F2;
     display: flex;
-    margin: 24px 90px;
+    margin: 60px 90px;
     padding: 24px;
     border-radius: 10px;
     justify-content: space-around;
@@ -144,7 +161,7 @@ ul {
 
 .footer {
     background-color: black;
-    color: white;
+    color: #999999;
     text-align: center;
-    padding: 28px 0;
+    padding: 20px 0;
 }
